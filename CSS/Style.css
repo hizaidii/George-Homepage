@@ -1,0 +1,84 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    border-bottom: 3px solid lightgray;
+    height: 70px;
+    background-color: rgb(231, 231, 231);
+}
+.Button {
+    display: inline-block;
+    background-color: rgb(66, 66, 66);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+    color: white;
+    height: 100%;
+    width: 150px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+
+.Left_Panel {
+    width: 20%;
+    background-color: rgb(231, 231, 231);
+    height: 900px;
+    float: left;
+    border-right: 3px solid lightgray;
+    box-sizing: border-box;
+}
+.top_profile {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 3px solid lightgray;
+    height: 320px;
+}
+.top_profile img {
+    height: 250px;
+    margin-bottom: 10px;
+}
+.bottom_details {
+    padding: 40px;
+}
+.stats {
+    padding: 7px;
+    padding-left: 0px;
+}
+
+
+.Right_Panel {
+    width: 80%;
+    background-color: rgb(231, 231, 231);
+    height: 900px;
+    float: right;
+}
+.Intro {
+    padding-left: 100px;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+.Intro img {
+    float: left;
+    padding: 20px;
+}
+.text1 {
+    padding-top: 1px;
+}
+.Gallery {
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+.Gallery img {
+    margin: 20px;
+    align-content: center;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
